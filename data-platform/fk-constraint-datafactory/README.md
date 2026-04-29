@@ -72,3 +72,14 @@ Pipeline successfully diagnosed and corrected by identifying data dependency iss
 ## 📸 Screenshots
 
 (to be added)
+
+## 💡 Engineering Insight
+
+This issue highlights a key principle in data engineering:
+
+> Data pipelines must respect relational integrity constraints.
+
+Tools like Azure Data Factory move data, but they do not understand business logic or relationships between tables.
+
+Proper sequencing and dependency handling must be explicitly designed.
+
