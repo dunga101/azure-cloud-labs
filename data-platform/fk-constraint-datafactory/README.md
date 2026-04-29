@@ -85,6 +85,6 @@ Proper sequencing and dependency handling must be explicitly designed.
 
 ## 📸 Pipeline Failure Evidence
 
-![Foreign Key Constraint Error](screenshots/fk-constraint-error.png)
+![Foreign Key Constraint Error](./fk-constraint-error.png)
 
 The pipeline failed during the sink operation due to a foreign key constraint violation between Orders and Customers tables.
