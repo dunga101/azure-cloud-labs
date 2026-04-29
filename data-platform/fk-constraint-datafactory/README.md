@@ -71,7 +71,7 @@ Pipeline successfully diagnosed and corrected by identifying data dependency iss
 
 ## 📸 Screenshots
 
-(to be added)
+Refer to Pipeline Failure Evidence section
 
 ## 💡 Engineering Insight
 
