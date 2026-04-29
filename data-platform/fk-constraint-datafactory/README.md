@@ -88,3 +88,10 @@ Proper sequencing and dependency handling must be explicitly designed.
 ![Foreign Key Constraint Error](./fk-constraint-error.png)
 
 The pipeline failed during the sink operation due to a foreign key constraint violation between Orders and Customers tables.
+
+## 🧠 What I Would Do in Production
+
+- Load dimension tables (Customers, Products) before fact tables (Orders, Transactions)
+- Implement pipeline dependencies in Azure Data Factory (sequential execution)
+- Add data validation step before insert to catch orphan records
+- Consider staging tables before final load
